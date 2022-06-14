@@ -14,7 +14,7 @@ function Edit({exerciseToEdit}){
 
   const editExercise = async()=>{
     const editedExercise = {name,reps,weight,unit,date};
-    const response = await fetch(`https://etracker2022.herokuapp.com/exercises/${exerciseToEdit._id}/`,
+    const response = await fetch(`https://exercise-tracker-2022.herokuapp.com/exercises/${exerciseToEdit._id}/`,
     {
       method: 'PUT',
       body: JSON.stringify(editedExercise),

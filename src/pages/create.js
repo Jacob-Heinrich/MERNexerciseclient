@@ -16,7 +16,7 @@ function Create() {
 
   const createExercise = async()=>{
     const newExercise = {name,reps,weight,unit,date};
-    const response = await fetch('https://etracker2022.herokuapp.com/exercises/' ,
+    const response = await fetch('https://exercise-tracker-2022.herokuapp.com/exercises/' ,
     {
       method: 'POST',
       body: JSON.stringify(newExercise),

@@ -11,11 +11,11 @@ function Home({setExerciseToEdit}) {
   const history = useHistory();
 
   const onDelete = async id => {
-    const response = await fetch(`https://etracker2022.herokuapp.com/exercises/${id}/`, {
+    const response = await fetch(`https://exercise-tracker-2022.herokuapp.com/exercises/${id}/`, {
       method: 'DELETE'
     });
     if(response.status === 204){
-      const getResponse = await fetch('https://etracker2022.herokuapp.com/exercises/');
+      const getResponse = await fetch('https://exercise-tracker-2022.herokuapp.com/exercises/');
       const exercises = await getResponse.json();
       setExercises(exercises);
     }else{
@@ -29,7 +29,7 @@ function Home({setExerciseToEdit}) {
   }
 
   const loadExercises = async () => {
-    const response = await fetch('https://etracker2022.herokuapp.com/exercises/');
+    const response = await fetch('https://exercise-tracker-2022.herokuapp.com/exercises/');
     const exercises = await response.json();
     setExercises(exercises);
 }
