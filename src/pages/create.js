@@ -15,7 +15,6 @@ function Create() {
   const history = useHistory();
 
   const createExercise = async()=>{
-    console.log(name)
     const newExercise = {name,reps,weight,unit,date};
     const response = await fetch('https://exercise-tracker-2022.herokuapp.com/exercises/' ,
     {
