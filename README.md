@@ -23,7 +23,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./readme.jpg" alt="Logo" width="275" height="200">
   </a>
 
 <h3 align="center">Exercise Tracker</h3>
@@ -71,7 +70,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][./readme.jpg](https://mern-workout-tracker.netlify.app/)
+[![Product Name Screen Shot][readme.jpg](https://mern-workout-tracker.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
