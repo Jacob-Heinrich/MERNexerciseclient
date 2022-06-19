@@ -70,7 +70,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot][readme.jpg](https://mern-workout-tracker.netlify.app/)
+![Product Name Screen Shot](readme.jpg)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
